@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1d31"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:padding="17dp"
+        android:background="#24253c"
+        android:textColor="#ffffff"
+        android:textColorHint="#89879b"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:padding="17dp"
+        android:background="#24253c"
+        android:textColor="#ffffff"
+        android:textColorHint="#89879b"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/et_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:padding="17dp"
+        android:background="#24253c"
+        android:textColor="#ffffff"
+        android:textColorHint="#89879b"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección"
+        android:padding="17dp"
+        android:background="#24253c"
+        android:textColor="#ffffff"
+        android:textColorHint="#89879b"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_crear_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contraseña"
+        android:padding="17dp"
+        android:background="#24253c"
+        android:textColor="#ffffff"
+        android:textColorHint="#89879b"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/btn_guardar_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:background="#e53854"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

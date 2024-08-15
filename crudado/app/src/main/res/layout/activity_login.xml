@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b1d31"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingreso de usuario"
+        android:textColor="#edf0f0"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="35dp" />
+
+    <EditText
+        android:id="@+id/et_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:padding="17dp"
+        android:background="#24253c"
+        android:textColor="#ffffff"
+        android:textColorHint="#89879b"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_clave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:padding="17dp"
+        android:background="#24253c"
+        android:textColor="#ffffff"
+        android:textColorHint="#89879b"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:background="#e53854"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario o clave incorrectos"
+        android:textColor="#e53854"
+        android:background="#f8d7da"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btn_nuevo_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Nuevo Usuario"
+        android:background="#e53854"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
